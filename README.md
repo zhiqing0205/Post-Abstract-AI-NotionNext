@@ -12,10 +12,10 @@
 通过以下 URL 来代理你的 js 代码：
 
 ```ruby
-https://cdn.jsdelivr.net/gh/用户名/Post-Abstract-AI-NotionNext/@master/pastking_gpt.js
+https://jsd.cdn.zzko.cn/gh/{{your-username}}/Post-Abstract-AI-NotionNext@master/pastking_gpt.js
 ```
 
-替换 `用户名` 为你的 GitHub 用户名。
+将 `{{your-username}}` 替换为你的 GitHub 用户名。
 
 ### 修改NotionNext
 在 `NotionNext` 项目的环境变量中，修改 `NEXT_PUBLIC_TIANLI_GPT_KEY` 属性，随意填写一个值（例如：`5Q5mpqRK5DkwT1X9Gi5e`）。
