@@ -22,7 +22,7 @@ https://jsd.cdn.zzko.cn/gh/{{your-username}}/Post-Abstract-AI-NotionNext@master/
 
 替换原有的 `NEXT_PUBLIC_TIANLI_GPT_JS` 属性。
 
-![](./doc/PastKing_2024-11-05_22-37-37.png)
+![](./doc/PastKing_2024-11-05_22-55-56.png)
 
 保存更改后即可启动 AI 摘要功能。
 
