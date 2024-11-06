@@ -1,4 +1,4 @@
-console.log("\n %c Post-Abstract-AI-NotionNex 开源博客文章摘要AI生成工具 %c https://github.com/PastKing/Post-Abstract-AI-NotionNext \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
+// console.log("\n %c Post-Abstract-AI-NotionNex 开源博客文章摘要AI生成工具 %c https://github.com/PastKing/Post-Abstract-AI-NotionNext \n", "color: #fadfa3; background: #030307; padding:5px 0;", "background: #fadfa3; padding:5px 0;");
 
 function ChucklePostAI(AI_option) {
   var aiExecuted = false;
@@ -141,6 +141,7 @@ function ChucklePostAI(AI_option) {
         const combinedText = title + ' ' + content;
         let wordLimit = AI_option.wordLimit || 1000;
         const truncatedText = combinedText.slice(0, wordLimit);
+        console.log('truncatedText: ', truncatedText);
         return truncatedText;
       } catch (e) {
         console.error('ChucklePostAI错误：获取文章内容失败', e);
