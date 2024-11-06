@@ -233,7 +233,7 @@ function ChucklePostAI(AI_option) {
   }
 
   function runChucklePostAI() {
-    if (window.location.pathname.includes('posts')) {
+    if (window.location.pathname.includes('article')) {
       const mainContainer = findMainArticleContainer();
       if (mainContainer) {
         insertAIDiv('#' + mainContainer.id);
@@ -260,7 +260,7 @@ function ChucklePostAI(AI_option) {
   }
 
   // 初始化时检查URL
-  if (window.location.pathname.includes('posts')) {
+  if (window.location.pathname.includes('article')) {
     initChucklePostAI();
   }
 
@@ -270,7 +270,7 @@ function ChucklePostAI(AI_option) {
   const url = location.href;
     if (url !== lastUrl) {
       lastUrl = url;
-      if (window.location.pathname.includes('posts')) {
+      if (window.location.pathname.includes('article')) {
         location.reload(); // 页面刷新
       }
     }
